@@ -1,0 +1,37 @@
+.defaul-wallet-view {
+    width: 100%;
+    height: 97vh;
+    padding-top: 12vh;
+    /* padding: 0 100px 0 100px; */
+}
+
+.modal-content button.btn.btn-default.btn-sm.Ripple-parent.close {
+    background: #170e1a !important;
+}
+
+.defaul-wallet-view {
+    background-color: #170e1a;
+}
+
+.close {
+    position: absolute;
+    right: 0;
+    top: 0;
+    margin: 0;
+    padding: 0.5rem 0.5rem !important;
+    background-color: #170e1a !important;
+    box-shadow: none;
+}
+
+.btn-default, .close:hover, .close.btn-default:not([disabled]):not(.disabled):active, .close.btn-default:not([disabled]):not(.disabled):focus {
+    background-color: #170e1a !important;
+    box-shadow: none;
+}
+
+.close .Ripple.is-reppling {
+    animation: none !important;
+}
+
+.close .fa-remove:before, .fa-close:before, .fa-times:before {
+    content: "\02715" !important;
+}

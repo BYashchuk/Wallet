@@ -1,0 +1,110 @@
+@import url(//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css);
+input[type=checkbox] {
+    display: none !important;
+}
+
+.form-inline {
+    font-size: 16px;
+    font-weight: 500;
+    text-transform: capitalize;
+    padding: 0 11% 0 23%;
+    height: 20vh;
+    overflow-y: auto;
+    overflow-x: hidden;
+    margin-bottom: 20px;
+}
+
+input[type=checkbox]+label:before {
+    font-family: FontAwesome;
+    display: inline-block;
+}
+
+input[type=checkbox]+label:before {
+    content: "\f096";
+}
+
+input[type=checkbox]+label:before {
+    letter-spacing: 10px;
+}
+
+input[type=checkbox]+label {
+    color: var(--white);
+    opacity: .3;
+}
+
+input[type=checkbox]:checked+label {
+    color: var(--white)!important;
+    opacity: 1;
+}
+
+input[type=checkbox]:checked+label:before {
+    content: "\f046";
+    color: var(--white)!important;
+    opacity: 1;
+}
+
+input[type=checkbox]:checked+label:before {
+    letter-spacing: 5px;
+}
+
+.form-inline .form-check {
+    width: 16% !important;
+    display: block !important;
+    float: right;
+    padding-left: 0 !important;
+}
+/* 
+@media screen and (max-height: 750px) {
+    .form-inline {
+        display: inline-grid !important;
+        height: 30vh;
+    }
+    
+    .blockchains-dropdown .btn {
+        height: 40px;
+    }
+    .generate-wallet-text {
+        margin: 4% 0 4% 0 !important;
+    }
+    .form-inline .form-check {
+        margin-top: 0px !important;
+        margin-bottom: 0px !important;
+        padding: 0 !important;
+        display: -webkit-inline-box!important;
+    }
+}
+
+@media screen and (max-height: 569px) {
+    .generate-wallet-text {
+        margin: 2% 0 2% 0 !important;
+    }
+    .form-inline {
+        height: 26vh;
+        margin-bottom: 0;
+    }
+}
+
+@media screen and (max-height: 415px) {
+    .generate-wallet-text {
+        margin: 0 !important;
+    }
+    .btn.next-step-btn {
+        left: 20px !important
+    }
+
+    .btn-group-medium.dropdown{
+    width: 100%;
+    }
+    .form-inline {
+        height: 35vh;
+        margin-bottom: 0;
+        padding: 0 13% 0 55%;
+    }
+
+} */
+
+@media screen and (max-width: 576px) {
+    .form-inline .form-check {
+        width: 100% !important;
+    }
+}
